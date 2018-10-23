@@ -9,4 +9,10 @@ public class HomeController {
 	public String Greeting() {
 		return "Hello!";
 	}
+	
+	@RequestMapping("/Hello")
+	public String Hello() {
+		return "Hi!";
+	}
 }
+
